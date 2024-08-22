@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+}
+div{
+    color: blue;
+    background-color: aquamarine;
+}
+form{
+  background-color: burlywood;
+}
+input
+{
+    color: inherit;
+    background-color: inherit;
+}
+button{
+    background-color: inherit;
+    
+}

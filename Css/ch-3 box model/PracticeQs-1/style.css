@@ -1,0 +1,22 @@
+.container{
+    height: 200px;
+    width: 70px;
+    border:2px solid black;
+}
+.content
+{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 100%;
+}
+#R{
+    background-color: red;
+}
+#G{
+    background-color: green;
+}
+#Y{
+    background-color:yellow;
+}

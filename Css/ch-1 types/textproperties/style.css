@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    text-decoration: double underline;
+    letter-spacing: 5px;
+    font-family: arial;
+}
+
+p {
+    text-align: justify;
+    font-weight: 450;
+    line-height: 1.5;
+    font: size 15px;
+    font-family: sans-serif;
+}
+
+hr {
+    font-weight: light;
+}
+
+h3 {
+    text-decoration: wavy underline;
+}

@@ -1,0 +1,46 @@
+/* PracticeQs-1 */
+/* *{
+    font-family: "Courier New";
+}
+h1{
+    color: #1b74e4;
+}
+#searchbtn
+{
+    background-color: black;
+    color: white;
+}
+.userbtn{
+    background-color: aqua;
+} */
+/* PracticeQs-2 */
+ /* h1{
+    color: pink;
+ }
+ #greet
+ {
+    color: yellow;
+ }
+ .myclass{
+    color: brown;
+ }
+ div p{
+     background-color: black;
+ }
+ .para
+ {
+    background-color: blue;
+ }
+ p{
+background-color: green;
+ } */
+  /* PracticeQs-3 */
+ div.greetDiv .Greet{
+    color: green;
+ }
+ .greetDiv p.Greet{
+    color: blue;
+ }
+ .greetDiv .Greet{
+    color: red;
+ }

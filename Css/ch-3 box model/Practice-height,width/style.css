@@ -1,0 +1,55 @@
+/* h1{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
+}
+span{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;   
+}
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;  
+    background-color: rgb(59, 128, 128);
+}
+#para{
+    display: none;
+} */
+.testing{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
+h1{
+ height: 70%;
+ width: 50%;
+ background-color: blueviolet;
+ display: inline-block;
+ margin:20px;
+}
+.outer{
+    height: 500px;
+    width: 500px;
+   background-color: blue;
+   font-size: 20px;
+   margin: 3em;
+   padding: 2em;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(21, 21, 71);
+    font-size: 1.2em;
+    padding: 1.5em;
+   
+}

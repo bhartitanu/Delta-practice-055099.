@@ -1,0 +1,23 @@
+div{
+    height: 200px;
+    width: 200px;
+    /* background-color: rgba(200, 200, 200, 0.7); */
+    background-color: #ff001e95;
+    opacity:0.9;
+    transform: rotate(120deg);
+}
+ 
+button{
+    height: 30px;
+    width:80px;
+    background-color: black;
+    transition: margin-top 2s ease 0.2s;
+    color: white;
+    margin-top: 30px;
+    margin: 0 auto;
+}
+button:hover{
+    opacity: 0.3;   
+    color: black;
+    margin-top: 500px;
+}
