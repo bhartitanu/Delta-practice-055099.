@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar fixed-top bg-info">
+      <div class="container">
+        <a href="#" class="navbar-brand">Brandname</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">Pricing</a>
+          <a href="#" class="navbar-link">Color</a>
+          <a href="#" class="navbar-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      main
+      <div class="container-ld bg-danger">container-ld</div>
+      <div class="container-md bg-primary">container-md</div>
+      <div class="container-sm bg-info">container-sm</div>
+      <div class="container-xl bg-success">container-xl</div>
+      <h4>demo</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+        consequatur modi sapiente magni tenetur? Minus quidem deserunt eligendi
+        autem earum voluptatem exercitationem, excepturi praesentium accusamus
+        dignissimos nam debitis delectus esse provident animi sit, voluptatum
+        quia laudantium ea explicabo dolorum commodi molestias aut illo. Facilis
+        dolores quod quas plasamus doloribus quaerat tempora facilis sunt
+        officia quidem aperiam. Et excepturi libero perferendis fugiat vitae
+        enim illum aliquid nihil, nesciunt aliquam quam culpa magni, eos
+        similique. Eque laudantium! Maxime quisquam quia eligendi tempora
+        perferendis. Id, voluptatem aliquid, explicabo ab unde labore natus
+        commodi accusamus molestiae ea veritatis?
+      </p>
+      <button>Click one -normal</button>
+      <button class="btn btn-lg">Click two-with class</button>
+      <button class="btn btn-dark">click three-with colorclass</button>
+      <button class="btn btn-light">click four-with link</button>
+      <button class="btn btn-outline-warning btn-sm">
+        click five -with outline
+      </button>
+      <span class="badge bg-secondary">New</span>
+      <h3>Notifications <span class="badge text-bg-primary"> 10+</span></h3>
+      <button class="btn btn-outline-info">
+        Downloads <span class="bagde bg-danger p-1 rounded-pill">+100</span>
+      </button>
+      <div class="alert alert-warning">You have already done this !!</div>
+      <div class="btn-group">
+        <div class="btn btn-outline-info">left</div>
+        <div class="btn btn-outline-info">middle</div>
+        <div class="btn btn-outline-info">right</div>
+      </div>
+      <div class="card bg-dark text-bg-primary" style="width: 18rem">
+        <img src="photo.jpg" class="card-img-top" alt="Photo" />
+        <div class="card-body">
+          <div class="card-tittle">Photography</div>
+          <div class="card-text">Love to capture</div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="container bg-info">
+      <h2>Grid system</h2>
+      <div class="row">
+        <div class="col bg-success">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Perspiciatis dolorum nihil tenetur vel neque reiciendis velit illum
+            non saepe, illo accusamus hic aspernatur distinctio! Minus provident
+            veritatis autem. Enim, hic.
+          </p>
+        </div>
+        <div class="col">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+            necessitatibus quod nostrum voluptatibus amet, odit atque
+            praesentium doloribus. Autem, optio rem! Rem autem commodi vero enim
+            asperiores nesciunt provident quod fugiat eos, corporis omnis totam
+            sint natus at aspernatur cum quibusdam est perferendis veritatis
+            veniam ex ipsum possimus! Labore, architecto. Vero facere quis
+            cumque porro autem.
+          </p>
+        </div>
+        <div class="col bg-success"><p>Lorem ipsum dolor sit amet.</p></div>
+        <div class="col">
+          <p>
+            Lorlorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Repellat deleniti error nostrum sunt harum dolore ipsum id soluta,
+            corporis qui adipisci reprehenderit modi fugit in temporibus amet
+            dicta eveniet ex.em ipsum dolor sit amet, consectetur adipisicing
+            elit. Quis mol
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <form>
+        <div class="mb-2">
+          <div class="row">
+            <div class="col mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" placeholder="email" />
+            </div>
+            <div class="col mb-2">
+              <label for="password" class="form-label">password</label>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="password"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="choose" class="form-label">Rating</label>
+          <select name="choose" class="form-select" id="city">
+            <option value="one" selected>choose your rate</option>
+            <option value="two">1-2</option>
+            <option value="three">2-3</option>
+            <option value="four">3-4</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="pizza"
+            />
+            <label class="form-check-label" for="pizza"> pizza </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="burger"
+              checked
+            />
+            <label class="form-check-label" for="burger"> burger </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="mb-3 col-2 form-check">
+            <label for="male" class="form-check-label">male</label>
+            <input
+              type="radio"
+              name="gender"
+              id="male"
+              class="form-check-input"
+            />
+          </div>
+          <div class="mb-3 col-2 form-check">
+            <label for="female" class="form-check-label">female</label>
+            <input
+              type="radio"
+              name="gender"
+              id="female"
+              class="form-check-input"
+            />
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="customRange3" class="form-label">Example range</label>
+          <input
+            type="range"
+            class="form-range"
+            min="0"
+            max="5"
+            step="0.5"
+            id="customRange3"
+          />
+        </div>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

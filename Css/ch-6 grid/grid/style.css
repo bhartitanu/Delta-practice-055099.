@@ -1,0 +1,15 @@
+.container{
+    height: 500px;
+    width:500px;
+    border:2px solid black;
+    display:grid;
+    /* grid-template-rows: 100px 30px 20px 120px 100px;
+    grid-template-columns: 100px 100px auto; */
+    grid-template-rows:repeat(3,1fr);
+    grid-template-columns: 1fr 1fr repeat(2,1fr);
+    grid-gap:10px;
+}
+.item{
+    background-color: coral;
+    border:1px solid rgb(17, 10, 1)
+}

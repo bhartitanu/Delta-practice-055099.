@@ -1,0 +1,28 @@
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: coral;
+    animation: font 2s linear 0.2s 3 normal;
+    animation: coloranimate 1s 0s alternate ease infinite;
+}
+@keyframes font {
+    from{
+        width: 300px;
+        font-size: 20px;
+        background-color: coral;
+    }
+    to{
+        width: 600px;
+        font-size: 40px;
+        background-color: brown;
+    }  
+}
+@keyframes coloranimate {
+    from{
+        background-color: brown;
+    }
+    to{
+        background-color: burlywood;
+    }
+    
+}
