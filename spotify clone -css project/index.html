@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/logo.png" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-list">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-list">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#" id="search">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="options">
+            <div class="lib-options nav-list">
+              <img src="./img/library_icon.png" alt="library icon" />
+              <a href="#">Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box-1">
+              <p class="box-para1">Create your first playlist</p>
+              <p class="box-para2">It's easy we'll help you</p>
+              <button class="badge">Create playlist</button>
+            </div>
+            <div class="box-1">
+              <p class="box-para1">Let's find some podcast to follow</p>
+              <p class="box-para2">We'll keep you updated to new episodes</p>
+              <button class="badge">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-icons">
+            <img src="./img/backward_icon.png" alt="backward_icon" />
+            <img src="./img/forward_icon.png" class="hide" alt="forward_icon" />
+          </div>
+          <div class="sticky-buttons">
+            <button class="badge hide">Explore premium</button>
+            <button class="badge dark-badge" style="margin-right: 5px">
+              <i class="fa-sharp fa-regular fa-circle-down"></i>
+              Install App
+            </button>
+            <i
+              class="fa-regular fa-user"
+              style="margin-right: 1rem; margin-top: 1rem"
+            ></i>
+          </div>
+        </div>
+        <div class="cards">
+          <h2>Recentely Played</h2>
+          <div class="card-container">
+            <div class="card">
+              <img src="./img/card1img.jpeg" alt="card-img" class="card-img" />
+              <p class="card-title">Top-50 Global</p>
+              <p class="card-info">Your daily upate of most played track</p>
+            </div>
+          </div>
+          <h2>Pick Your Favourite</h2>
+          <div class="card-container">
+            <div class="card">
+              <img src="./img/card2img.jpeg" alt="card-img" class="card-img" />
+              <p class="card-title">Mahiye Jinna Sona</p>
+              <p class="card-info">Darshan Rawal</p>
+            </div>
+            <div class="card">
+              <img src="./img/card3img.jpeg" alt="card-img" class="card-img" />
+              <p class="card-title">Pasoori Nu</p>
+              <p class="card-info">Arijit Singh, Rochak Kohl, Tulsi kumar</p>
+            </div>
+            <div class="card">
+              <img src="./img/card4img.jpeg" alt="card-img" class="card-img" />
+              <p class="card-title">Naa reddy</p>
+              <p class="card-info">Anirudhha Ravichandar, Thalapathy Vijay</p>
+            </div>
+            <div class="card">
+              <img src="./img/card2img.jpeg" alt="card-img" class="card-img" />
+              <p class="card-title">Top-50 Global</p>
+              <p class="card-info">Your daily upate of most played track</p>
+            </div>
+            <div class="card">
+              <img src="./img/card1img.jpeg" alt="card-img" class="card-img" />
+              <p class="card-title">Top-50 Global</p>
+              <p class="card-info">Your daily upate of most played track</p>
+            </div>
+          </div>
+          <h2>Treanding Now</h2>
+          <div class="card-container">
+            <div class="card">
+              <img src="./img/card5img.jpeg" alt="card-img" class="card-img" />
+              <p class="card-title">Top Songs Global</p>
+              <p class="card-info">Your daily upate of most played track</p>
+            </div>
+            <div class="card">
+              <img src="./img/card6img.jpeg" alt="card-img" class="card-img" />
+              <p class="card-title">Top-50 India</p>
+              <p class="card-info">Your daily upate of most played track</p>
+            </div>
+            <div class="card">
+              <img src="./img/card1img.jpeg" alt="card-img" class="card-img" />
+              <p class="card-title">Top-50 Global</p>
+              <p class="card-info">Your daily upate of most played track</p>
+            </div>
+          </div>
+          <div class="footer">
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="music-player">
+        <div class="albums">
+          <div class="album-photo">
+            <img src="./img/card2img.jpeg" alt="album" />
+          </div>
+          <div class="album-info">
+            <h4>Mahiyee Jinna Sonna</h4>
+            <p>Darshan Rawal</p>
+          </div>
+          <div class="album-icon">
+            <button>
+              <i
+                class="fa-solid fa-circle-plus"
+                style="color: #fff; font-size: 1rem"
+              ></i>
+            </button>
+          </div>
+        </div>
+        <div class="player">
+          <div class="player-control">
+            <img
+              src="./img/player_icon1.png"
+              class="player-control-icon icon1"
+            />
+            <img
+              src="./img/player_icon2.png"
+              class="player-control-icon icon2"
+            />
+            <img
+              src="./img/player_icon3.png"
+              class="player-control-icon icon-mid"
+            />
+            <img
+              src="./img/player_icon4.png"
+              class="player-control-icon icon2"
+            />
+            <img
+              src="./img/player_icon5.png"
+              class="player-control-icon icon1"
+            />
+          </div>
+          <div class="player-bar">
+            <span class="curr-time">00.00</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              step="5"
+              class="progress-bar bar"
+            />
+            <span class="tot-time">3.33</span>
+          </div>
+        </div>
+        <div class="controls">
+          <div class="control-icons">
+            <i class="fa-solid fa-clapperboard" class="control-options"></i>
+            <i class="fa-solid fa-music" class="control-options"></i>
+            <i class="fa-solid fa-bars" class="control-options"></i>
+            <i
+              class="fa-solid fa-headphones-simple"
+              class="control-options"
+            ></i>
+            <input
+              type="range"
+              min="0"
+              max="10"
+              step="1"
+              class="volume bar"
+              class="control-options"
+            />
+            <i class="fa-solid fa-tv" class="control-options"></i>
+            <i
+              class="fa-solid fa-down-left-and-up-right-to-center"
+              class="control-options"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
