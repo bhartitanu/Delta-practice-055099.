@@ -2,8 +2,8 @@
     font-family: "Nunito", sans-serif;
     margin: 0;
     overflow: hidden;
-   color: white;
-   text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 .main{
     display: flex;
