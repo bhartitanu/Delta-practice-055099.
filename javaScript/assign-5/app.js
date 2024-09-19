@@ -76,7 +76,6 @@ function random(start,end){
     let ran=Math.floor(Math.random()*diff)+start;
     return ran;
 }
-console.log("");
 let start=parseInt(prompt("Enter the starting of random no"));
 let end=parseInt(prompt("Enter the ending of random no"));
 let gen=random(start,end);
