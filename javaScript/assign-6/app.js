@@ -41,10 +41,10 @@ let length = 4;
 function callback(){
     console.log(this.length);
 }
-const obj={
+let object2={
     length:5,
     method(callback){
         callback();
     },
 };
-obj.method(callback,1,2);
+object2.method(callback,1,2);
