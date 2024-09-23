@@ -6,6 +6,12 @@ body {
     width: 35%;
   }
   
+  .underline-wavy{
+    text-decoration: underline wavy gray;
+  }
+  .newfont{
+    font-family:monospace;
+  }
   .box {
     border: 0.25px solid black;
     background-color: lightgray;

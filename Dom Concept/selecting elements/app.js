@@ -37,5 +37,33 @@ console.log("getAttribute,setAttribute");
 console.log(sel.getAttribute('class'));
 sel.setAttribute(sel.getAttribute('class'),'newbox');
 console.log(sel);
+let heading=document.querySelector('h1');
+heading.style.color="red";
+console.log("color of heading changed");
+heading.style.fontSize="2.3rem";
+console.log("font size of heading changed");
+console.log("let change the color of all the itmes in list")
+let items=document.querySelectorAll(".box a");
+console.log(items);
+for(let i=0;i<items.length;i++){
+    items[i].style.color="coral";
+}
+console.log("color of list items is changed");
+console.log(heading.classList);
+heading.classList.add("underline-wavy");
+heading.classList.add("newfont");
+console.log(heading.classList);
+sec.classList.add("newfont");
+heading.classList.remove("newfont");
+console.log(heading.classList.contains("newfont"));
+console.log(sel.classList   );
+console.log(sel.classList.toggle("newfont"));
+let ul=sel.children[1];
+console.log(ul.children);
+console.log(ul.childElementCount);
+console.log(ul.children[1]);
+console.log(ul.previousElementSibling);
+console.log(ul.children[1].nextElementSibling);
+console.log(heading.nextElementSibling);
 
 
