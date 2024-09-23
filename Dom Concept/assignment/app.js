@@ -33,4 +33,5 @@ let para=document.createElement('p');
 para.innerText="Apna College Delta Practice";
 body.append(para);
 para.classList.add('bold');
-
+para.innerHTML="Apna College <b>Delta</b> Practice"
+para.classList.remove('bold');
