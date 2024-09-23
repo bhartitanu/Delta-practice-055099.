@@ -1,0 +1,36 @@
+console.log("practice Q-1");
+let input=document.createElement('input');
+console.log(input);
+let body=document.querySelector('body');
+body.append(input);
+let btn=document.createElement('button');
+console.log(btn);
+body.append(btn);
+console.log("button inserted")
+btn.innerText="Click Me";
+console.log("practice Q-2");
+input.placeholder="UserName";
+console.log("Input placeholder inserted");
+btn.id="btn";
+console.log("button id inserted");
+console.log("Practice Q-3");
+let btttn=document.querySelector('#btn');
+console.log(btttn);
+console.log(btttn.classList);
+btttn.classList.add('btn-style');
+console.log(btttn.classList);
+console.log("Practice Q-4");
+let heading=document.createElement('h1');
+heading.innerText="DOM Practice";
+body.append(heading);
+console.log(heading.classList);
+console.log("adding classes");
+heading.classList.add("underline");
+heading.classList.add("purple");
+console.log(heading.classList);
+console.log("Practice Q-5");
+let para=document.createElement('p');
+para.innerText="Apna College Delta Practice";
+body.append(para);
+para.classList.add('bold');
+

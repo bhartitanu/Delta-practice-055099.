@@ -65,5 +65,21 @@ console.log(ul.children[1]);
 console.log(ul.previousElementSibling);
 console.log(ul.children[1].nextElementSibling);
 console.log(heading.nextElementSibling);
+let newpara=document.createElement('p');
+let body=document.querySelector("body");
+newpara.append("hi there ");
+body.appendChild(newpara);
+newpara.classList.add("newfont");
+let box=document.querySelector('.box');
+box.prepend(newpara);
+let btn=document.createElement('button');
+btn.append("click me");
+box.insertAdjacentElement('afterend',btn);
+box.append("inserting a button");
+box.insertAdjacentElement('beforeend',btn);
+box.append("click the button");
+box.removeChild(btn);
+smallImg[2].remove();
+
 
 

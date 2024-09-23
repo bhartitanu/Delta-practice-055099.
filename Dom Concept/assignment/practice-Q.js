@@ -1,0 +1,23 @@
+let p=document.createElement('p');
+console.log(p);
+let container=document.querySelector('div');
+console.log(container);
+container.prepend(p);
+p.style.color="red";
+p.append("Hey there I am red! ");
+console.log("paragraph inserted")
+let h3=document.createElement('h3');
+h3.style.color="blue";
+h3.append("Hi there I am blue H3");
+container.append(h3);
+console.log("h3 is inserted");
+let div=document.createElement('div');
+div.style.border="solid black";
+div.style.backgroundColor="pink";
+container.append(div);
+let h1=document.createElement('h1');
+h1.append("Hi I am div");
+div.appendChild(h1);
+let newp=document.createElement('p');
+newp.append("Me Too");
+div.appendChild(newp);
