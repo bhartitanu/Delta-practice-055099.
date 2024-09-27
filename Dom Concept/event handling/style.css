@@ -1,0 +1,19 @@
+h1,div,p,input{
+ text-align: center;
+}
+#color-btn{
+    margin: auto 0;
+}
+#color-box{
+    height: 100px;
+    width: 500px;
+    border: solid black;
+    margin: 10px auto;
+}
+.character-box{
+    height: 150px;
+    width: 500px;
+    border: solid black;
+    margin: 10px auto;
+    padding  :auto;
+}
