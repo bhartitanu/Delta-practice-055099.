@@ -19,18 +19,17 @@ function getRandomColor(){
     return color;
 }
 
-let input=document.querySelector("#character");
-input.addEventListener("keypress" ,function
-    (event)
+let input=document.querySelector("#character ");
+input.addEventListener("keydown" ,function(event)
     {
     console.log("Character direction");
-    if(event.code =='keyU'){ 
+    if(event.code =="KeyU"){ 
         console.log("Character moved Upward");
-    } else if(event.code =='keyB'){
+    } else if(event.code =="KeyB"){
         console.log("Character moved Backward");
-    } else if(event.code =='keyL'){
+    } else if(event.code =="KeyL"){
         console.log("Character moved to Left");
-    } else if(event.code =='keyR'){
+    } else if(event.code =="KeyR"){
         console.log("Character moved to Right");
     } else{
         console.log("you have wrong choice");
