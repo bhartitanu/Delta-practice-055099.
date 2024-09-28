@@ -37,8 +37,32 @@ inp.addEventListener("keyup",function(event)
     console.log("key is relesed");
     console.dir(event);
 console.log("code=",event.code,event.key);
+});
+
+let form=document.querySelector("form");
+form.addEventListener("submit",function()
+{
+    event.preventDefault();
+    alert("form submitted");
 
 });
+    let user=document.querySelector("#username");
+    let pass=document.querySelector("#password");
+    // console.log("user=",user.value);
+    // console.log("pass=",pass.value)
+    console.log(form.elements[0].value);
+    console.log(form.elements[1].value);
+    user.addEventListener("input",function(){
+        console.log("the value is ",this.value);
+    })
+    
+    user.addEventListener("change",function(){
+        console.log("the username is ",this.value);
+    })
+    pass.addEventListener("change",function(){
+        console.log("the username is ",this.value);
+    })
+    
 
 
 

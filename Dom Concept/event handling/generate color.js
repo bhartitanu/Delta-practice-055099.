@@ -35,3 +35,8 @@ input.addEventListener("keydown" ,function(event)
         console.log("you have wrong choice");
     }
 });
+let textp=document.querySelector("#text-editor p");
+let textarea=document.querySelector("textarea");
+textarea.addEventListener("input",function(){
+    textp.innerText=textarea.value;
+})
