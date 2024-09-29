@@ -17,3 +17,16 @@ h1,div,p,input{
     margin: 10px auto;
     padding  :auto;
 }
+#division{
+    height: 100px;
+    width: 500px;
+    border: solid black;
+    margin: 10px auto;
+    background-color: brown;
+}
+ul{
+    background-color: bisque;
+}
+li{
+    background-color: chocolate;
+}
