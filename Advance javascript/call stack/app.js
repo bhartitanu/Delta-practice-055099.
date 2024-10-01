@@ -49,3 +49,30 @@ changeColor("red",1000,()=>{
         });
     });
 });
+console.log("refactoring the above code with Promises");
+function changeColor2(color,delay)
+{
+return new Promise((resolve,reject)=>
+{
+setTimeout(()=>{
+    h1.style.color=color;
+    resolve("color Changed");
+},delay);
+});
+}
+changeColor2("red",1000)
+.then(()=>{
+    console.log("red color changed");
+    return changeColor2("blue",1000);
+})
+.then(()=>{
+    console.log("blue color chnaged");
+    return changeColor2("green",1000);
+})
+.then(()=>{
+    console.log("yellow color chnaged");
+})
+.catch(()=>{
+    console.error(error);
+});
+
