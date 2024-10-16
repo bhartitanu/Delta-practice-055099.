@@ -13,4 +13,5 @@ const read =require("./math.js");
 console.log("reading",read.add(4,5));
 console.log(read.pi);
 
-
+const util=require('./util');
+console.log(util);
