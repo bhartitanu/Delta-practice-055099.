@@ -9,7 +9,8 @@ let agrs= process.argv;
 for (let i=2;i<agrs.length;i++){
   console.log("hello to",agrs[i]);
 }
-const read =require("./math");
-//console.log("reading",read.add(4,5));
-console.log(read);
+const read =require("./math.js");
+console.log("reading",read.add(4,5));
+console.log(read.pi);
+
 
