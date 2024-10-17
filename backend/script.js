@@ -15,3 +15,5 @@ console.log(read.pi);
 
 const util=require('./util');
 console.log(util);
+import { generate , count } from "random-words";
+console.log(generate());
