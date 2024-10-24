@@ -27,9 +27,6 @@ app.get("/apple",(req,res)=>{
 app.get("/mango",(req,res)=>{
     res.send("You visited mango path");
 });
-app.get("*",(req,res)=>{
-    res.send("You entered something else !!");
-});
 app.post("/",(req,res)=>
 {
     res.send("you posted a responsed to root .");
@@ -38,5 +35,16 @@ app.post("/pineapple",(req,res)=>
 {
     res.send("no pineapples are sweet .");
 });
-
-
+app.get("/search",(req,res)=>
+{
+    let {q} =req.query;
+    if(!q){
+        res.send("No query found");
+    }
+    res.send(`The result of Query - ${q} is:-`);
+})
+app.get("/found",(req,res)=>
+{
+    let {username,id}=req.query;
+    res.send(`<h1>Welcome Mr @${username}${id} to your account.</h1> `);
+})
