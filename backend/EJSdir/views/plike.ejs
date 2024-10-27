@@ -5,21 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plike:Explore yourself</title>
     <link rel="stylesheet" href="/style.css" />
-    <script scr="/app.js"></script>
-  </head>
-  <body>
-    <h1>Welcome @<%=data.name %> to Plike</h1>
+</head>
+<body>
+    <h1>Welcome @<%= data.name %> to Plike</h1>
     <button>Follow</button>
     <button>Message</button>
     <h3>
-      Followers:<%=data.followers%>&nbsp;&nbsp;&nbsp;&nbsp;Following:<%=data.following%>
+        Followers:<%=data.followers%>&nbsp;&nbsp;&nbsp;&nbsp;Following:<%=data.following%>
     </h3>
     <hr />
     <%for(let post of data.posts){ %>
-    <img src="<%= post.image %>" alt="" />
-    <h3>
-      likes:<%=post.likes%>&nbsp;&nbsp;&nbsp;&nbsp;Comments:<%=post.comments%>
-    </h3>
-    <%}%>
+        <img src="<%= post.image %>" alt="" />
+        <h3>
+            likes:<%=post.likes%>&nbsp;&nbsp;&nbsp;&nbsp;Comments:<%=post.comments%>
+        </h3>
+        <%}%>
+        <%- include("include/footer.ejs")%>
+        <script scr="/app.js"></script>
   </body>
 </html>
