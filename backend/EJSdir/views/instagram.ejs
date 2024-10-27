@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js"></script>
+  </head>
+  <body>
+    <h1>Welcome @<%=username %> to Instagram;</h1>
+    <button>Follow</button>
+    <button>Message</button>
+    <h3>Accounts that follow you:</h3>
+    <ul>
+      <% for( let users of followers) { %>
+      <li><%= users %></li>
+      <% } %>
+    </ul>
+  </body>
+</html>
