@@ -1,0 +1,16 @@
+{
+  "name": "vioge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bharti Gupta",
+  "license": "ISC",
+  "description": "A simple bloging application where you can post your blogs.",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}
