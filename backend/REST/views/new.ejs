@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create New Post</title>
+  </head>
+  <body>
+    <form method="post" action="/posts">
+      <div>
+        <label for="user">Username:</label>
+        <input
+          type="text"
+          id="user"
+          name="username"
+          placeholder="Enter your Username"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="Skills">Skills:</label>
+        <input
+          type="text"
+          id="Skills"
+          name="Skills"
+          placeholder="Enter your Skills"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="content">About:</label>
+        <textarea name="content" id="content" rows="1"></textarea>
+      </div>
+      <br />
+      <button>Submit Post</button>
+    </form>
+  </body>
+</html>
