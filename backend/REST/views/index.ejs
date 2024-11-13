@@ -7,15 +7,31 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Quora Post</h1>
+    <h1>Henaal Post:-hANGout here!!</h1>
     <div class="post-container">
       <% for(post of posts) { %>
       <div class="post">
-        <h3 class="username">Username: <%= post.username %></h3>
-        <h4 class="Skills">Skills:<%= post.Skills %></h4>
-        <p class="About">About:<%= post.content%></p>
+        <h3 class="username">@<%=post.username %></h3>
+        <h4 class="Skills">Skills:<%=post.Skills %></h4>
+        <p class="About">About:<%=post.content%></p>
+        <br />
+        <button>
+          <a href="http://localhost:8080/posts/<%= post.id %>">See in detail</a>
+        </button>
+        <button>
+          <a href="http://localhost:8080/posts/<%= post.id %>/edit">Edit</a>
+        </button>
+        <br />
+        <br />
+        <form method="post" action="/posts/<%= post.id %>?_method=DELETE">
+          <button>Delete Post</button>
+        </form>
       </div>
       <% }%>
     </div>
+
+    <button>
+      <a href="http://localhost:8080/posts/new">Create new post</a>
+    </button>
   </body>
 </html>
