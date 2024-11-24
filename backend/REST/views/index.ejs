@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Henaal Post:-hANGout here!!</h1>
+    <h1>henaal:-build your network!</h1>
+    <h2>Know your Friends here 😃</h2>
+    <button style="background-color: maroon">
+      <a
+        href="http://localhost:8080/posts/new"
+        style="color: white; font-size: larger"
+        >Create new post</a
+      >
+    </button>
     <div class="post-container">
       <% for(post of posts) { %>
       <div class="post">
         <h3 class="username">@<%=post.username %></h3>
-        <h4 class="Skills">Skills:<%=post.Skills %></h4>
+        <h4 class="Skills">Hobby:<%=post.Skills %></h4>
         <p class="About">About:<%=post.content%></p>
-        <br />
         <button>
           <a href="http://localhost:8080/posts/<%= post.id %>">See in detail</a>
         </button>
@@ -29,9 +36,5 @@
       </div>
       <% }%>
     </div>
-
-    <button>
-      <a href="http://localhost:8080/posts/new">Create new post</a>
-    </button>
   </body>
 </html>

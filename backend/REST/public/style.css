@@ -5,7 +5,7 @@ h1 {
   color: maroon;
 }
 .post-container {
-  margin: 20px;
+  margin: 10px;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -24,4 +24,9 @@ h1 {
 a {
   text-decoration: none;
   color: darkred;
+}
+button {
+  background-color: cornsilk;
+  border-radius: 2px;
+  border: 2px red;
 }
