@@ -1,0 +1,32 @@
+body {
+  background-color: lemonchiffon;
+  margin: 10px;
+}
+.chat-container {
+  display: inline-block;
+}
+.chat {
+  background-color: aliceblue;
+  padding: 8px;
+  display: inline-block;
+  border: 2px solid skyblue;
+  border-radius: 20px;
+  margin: 10px;
+}
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+.msg {
+  background-color: cornflowerblue;
+  padding: 10px;
+  width: 230px;
+  font-size: bolder;
+  border-radius: 10px;
+  padding-top: 5px;
+  word-wrap: wrap;
+}
+.msg button {
+  padding: 2px 5px;
+  border-radius: 5px;
+}

@@ -73,12 +73,12 @@ app.get("/posts/:id/edit",(req,res)=>{
     let post =posts.find((p)=> id === p.id);
     res.render("edit.ejs",{ post });
 });
+//deleting post 
 app.delete("/posts/:id",(req,res)=>{
     let { id }=req.params;
     posts =posts.filter((p)=> id !== p.id);
-    res.redirect("/posts");
-    
-})
+    res.redirect(" /posts ");
+});
 app.listen(port,()=>{
     console.log(`App is listining on ${port}`);
 });
